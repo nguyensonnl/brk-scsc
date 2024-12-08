@@ -11,6 +11,20 @@ function KhaiThac() {
           sai hawb, hawb trên hàng - Làm sai hawb bình thường
         </li>
       </ul>
+	  
+	  <h3>Các vấn đề bất thường khi khai thác</h3>
+	  <ol>
+		<li>
+			<div>Dư FHL:</div>
+			<div>1. Kiểm tra talon, nếu không có HAWB: Nhận hàng theo MAWB (add group theo mawb: location).</div>
+			<div>2. Kiểm tra talon, nếu có hawb: Nhận hàng theo hawb bình thường.
+		</li>
+		<li>
+			<div>Hệ thống hiển thị MAWB và HAWB 1pc, thực tế 4 pcs, tài liệu mark: lệnh kiện, mawb 1pc, hawb 4 pcs</div>
+			<div>Gọi tài liệu consol hawb bao nhiêu kiện, bao nhiêu ký, để nhận theo tài liệu</div>
+		</li>
+	  </ol>
+	  
     </div>
   );
 }
