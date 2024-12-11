@@ -2,7 +2,7 @@ function KhaiThac() {
   return (
     <div className="main">
       <h3>Các vấn đề khai thác</h3>
-      <ul>
+      <ol>
         <li>
           Lô hàng có 2 hawb, hawb A trên hệ thống có 2 kiện, hawb B có 1 kiện,
           thực tế hawb A có 3 kiện, hawb B không có kiện nào (shiping mark của
@@ -10,10 +10,10 @@ function KhaiThac() {
           thực tế nhận 3 pcs, nhận tạm 1 pc vào hawb B <br></br>- Hawb B mark:
           sai hawb, hawb trên hàng - Làm sai hawb bình thường
         </li>
-      </ul>
+      </ol>
 
-      <h3>Các vấn đề bất thường khi khai thác</h3>
-      <ol>
+      <h3>Chú ý khi khai thác</h3>
+      <ol type="1">
         <li>
           <div>Dư FHL:</div>
           <div>

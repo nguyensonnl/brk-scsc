@@ -12,6 +12,7 @@ import Mail from "./components/Mail/index.jsx";
 import RKNRAP from "./components/RKNRAP/index.jsx";
 import SaiHAWB from "./components/SaiHAWB/index.jsx";
 import MSCA from "./components/MSCA/index.jsx";
+import ThongBao from "./components/ThongBao/index.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -30,6 +31,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/rkn-rap" element={<RKNRAP />}></Route>
         <Route path="/sai-hawb-khong-hawb" element={<SaiHAWB />}></Route>
         <Route path="/msca" element={<MSCA />}></Route>
+        <Route path="/thong-bao" element={<ThongBao />}></Route>
 
         <Route path="*" element={<NotFound />}></Route>
       </Routes>

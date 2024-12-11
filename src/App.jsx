@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="main">
       <h3>Danh sách các công việc làm</h3>
-      <ul>
+      <ul style={{ listStyle: "none" }}>
         <li>
           <Link to="/khai-thac">1. Khai thác</Link>
         </li>
@@ -32,6 +32,9 @@ function App() {
         </li>
         <li>
           <Link to="/msca">9. MSCA</Link>
+        </li>
+        <li>
+          <Link to="/thong-bao">10. Thông báo</Link>
         </li>
       </ul>
     </div>
