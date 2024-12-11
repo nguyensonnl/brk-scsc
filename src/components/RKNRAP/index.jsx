@@ -2,6 +2,7 @@ const RKNRAP = () => {
   return (
     <div className="main">
       <h3>Khai thác RAP - RKN</h3>
+      <li>Gửi mail nhiệt độ RAP - RKN theo source</li>
       <ol>
         <li>QR: cập nhật 5 tiếng 1 lần nếu cắm điện</li>
         <li>LH: nếu cắm điện, chỉ gửi mail không cần cập nhật</li>
