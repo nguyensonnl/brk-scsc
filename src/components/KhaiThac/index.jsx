@@ -4,6 +4,19 @@ function KhaiThac() {
       <h3>Các vấn đề khai thác</h3>
       <ol>
         <li>
+          Lô hàng trên hệ thống 7pcs, thực tế có 6pcs, nhưng nhận 7pcs, các uld
+          còn lại xem có lô đó không, uld nhận 110%, uld khác nhận 90%, các uld
+          bù trừ cho nhau
+        </li>
+        <li>
+          ULD đã move ETV thì không vào được, phải move lại BRK mới vào lại ULD
+          được.
+        </li>
+        <li>Lô hàng transit, nhận xong ghi sổ, mark máy</li>
+        <li>
+          Các chuyến transit, nếu không có mail xả, thì xả khai thác bình thường
+        </li>
+        <li>
           Khi khai thác lô hàng có chất trên nhiều ULD, khi xả xuống mâm thì vẫn
           còn chỗ thì sẽ dồn lô hàng của người khác lên mâm của mình khi khai
           thác thì nên vào uld của họ nhận tiếp lô hàng đang khai thác
@@ -42,6 +55,14 @@ function KhaiThac() {
         <li>
           Lô hàng bị ướt từ bên ori, họ dán keo dẻo lên kiện hàng rồi chất lên
           uld, chụp hình, lập biên bản, cân lại
+        </li>
+      </ol>
+
+      <h3>Hàng Transit</h3>
+      <ol>
+        <li>
+          Hàng transit đã dlv, gửi điện sita manual, gửi điện sita lẫn lập biên
+          bản bằng tay.
         </li>
       </ol>
 

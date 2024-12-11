@@ -22,7 +22,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/khai-thac" element={<KhaiThac />}></Route>
         <Route path="/khai-thac-vun-val" element={<KhaiThacVunVal />}></Route>
         <Route
-          path="/khai-thac-hang-lạnh"
+          path="/khai-thac-hang-lanh"
           element={<KhaiThacHangLanh />}
         ></Route>
         <Route path="/khai-thac-mail" element={<KhaiThacMail />}></Route>
