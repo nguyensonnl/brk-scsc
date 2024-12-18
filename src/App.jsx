@@ -4,37 +4,42 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <div className="main">
-      <h3>Danh sách các công việc làm</h3>
+      <h3>KHAI THÁC</h3>
       <ul style={{ listStyle: "none" }}>
-        <li>
-          <Link to="/khai-thac">1. Khai thác</Link>
+         <li>
+          <Link to="/thong-bao">
+            <h3>Thông báo</h3>
+          </Link>
         </li>
         <li>
-          <Link to="/khai-thac-vun-val">2. Khai thác vul val</Link>
+          <Link to="/khai-thac">1. Khai thábc</Link>
+        </li>
+        <li>
+          <Link to="/khai-thac-vun-val">2. Khai thác VUN VAL</Link>
         </li>
         <li>
           <Link to="/khai-thac-hang-lanh">3. Khai thác hàng lạnh</Link>
+        </li> 
+        <li>
+          <Link to="/rkn-rap">4. Khai thác RKN RAP</Link>
+        </li>       
+        <li>
+          <Link to="/sai-hawb-khong-hawb">5. Sai HAWB, Không HAWB</Link>
         </li>
         <li>
-          <Link to="/khai-thac-mail">4. Khai thác mail</Link>
+          <Link to="/msca">6. MSCA</Link>
+        </li>
+         <li>
+          <Link to="/khai-thac-mail">7. Khai thác mail</Link>
+        </li>
+      </ul>
+      <h3>TÀI LIỆU</h3>
+      <ul>
+         <li>
+          <Link to="/khoanh-mnf">1. Khoanh MNF</Link>
         </li>
         <li>
-          <Link to="/rkn-rap">5. RKN RAP</Link>
-        </li>
-        <li>
-          <Link to="/khoanh-mnf">6. Khoanh MNF</Link>
-        </li>
-        <li>
-          <Link to="/mail">7. Mail</Link>
-        </li>
-        <li>
-          <Link to="/sai-hawb-khong-hawb">8. Sai HAWB, Không HAWB</Link>
-        </li>
-        <li>
-          <Link to="/msca">9. MSCA</Link>
-        </li>
-        <li>
-          <Link to="/thong-bao">10. Thông báo</Link>
+          <Link to="/mail">2. Mail</Link>
         </li>
       </ul>
     </div>
