@@ -4,13 +4,12 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <div className="main">
-      <h3>KHAI THÁC</h3>
-      <ul style={{ listStyle: "none" }}>
-        <li>
-          <Link to="/thong-bao">
-            <h3>Thông báo</h3>
-          </Link>
-        </li>
+      <span className="title">*Khai thác hàng thường</span>
+      <span className="notification">
+        <Link to="/thong-bao">Thông báo</Link>
+      </span>
+
+      <ul>
         <li>
           <Link to="/khai-thac">1. Khai thábc</Link>
         </li>
@@ -36,7 +35,7 @@ function App() {
           <Link to="/khai-thac-mail">8. Khai thác mail</Link>
         </li>
       </ul>
-      <h3>TÀI LIỆU</h3>
+      <span className="title">*Tài liệu</span>
       <ul>
         <li>
           <Link to="/khoanh-mnf">1. Khoanh MNF</Link>
