@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+ol{
+padding-left: 12px;
+}
+
 ul,
 li {
 }
