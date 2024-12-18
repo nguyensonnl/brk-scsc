@@ -32,3 +32,4 @@ const FDCA = () => {
     </div>
   );
 };
+export default FDCA;
