@@ -6,7 +6,7 @@ function App() {
     <div className="main">
       <h3>KHAI THÁC</h3>
       <ul style={{ listStyle: "none" }}>
-         <li>
+        <li>
           <Link to="/thong-bao">
             <h3>Thông báo</h3>
           </Link>
@@ -19,10 +19,10 @@ function App() {
         </li>
         <li>
           <Link to="/khai-thac-hang-lanh">3. Khai thác hàng lạnh</Link>
-        </li> 
+        </li>
         <li>
           <Link to="/rkn-rap">4. Khai thác RKN RAP</Link>
-        </li>       
+        </li>
         <li>
           <Link to="/sai-hawb-khong-hawb">5. Sai HAWB, Không HAWB</Link>
         </li>
@@ -32,13 +32,13 @@ function App() {
         <li>
           <Link to="fdca">7. FDCA</Link>
         </li>
-         <li>
+        <li>
           <Link to="/khai-thac-mail">8. Khai thác mail</Link>
         </li>
       </ul>
       <h3>TÀI LIỆU</h3>
       <ul>
-         <li>
+        <li>
           <Link to="/khoanh-mnf">1. Khoanh MNF</Link>
         </li>
         <li>

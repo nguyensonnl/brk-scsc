@@ -33,7 +33,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/sai-hawb-khong-hawb" element={<SaiHAWB />}></Route>
         <Route path="/msca" element={<MSCA />}></Route>
         <Route path="/thong-bao" element={<ThongBao />}></Route>
-        <Route path='/fdca" element={<FDCA />}></Routes>
+        <Route path="/fdca" element={<FDCA />}></Route>
 
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
