@@ -29,8 +29,11 @@ function App() {
         <li>
           <Link to="/msca">6. MSCA</Link>
         </li>
+        <li>
+          <Link to="fdca">7. FDCA</Link>
+        </li>
          <li>
-          <Link to="/khai-thac-mail">7. Khai thác mail</Link>
+          <Link to="/khai-thac-mail">8. Khai thác mail</Link>
         </li>
       </ul>
       <h3>TÀI LIỆU</h3>
