@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-ol {
-  padding-left: 12px;
-}
-
 li a:hover {
   color: red;
 }
