@@ -4,6 +4,15 @@ function KhaiThac() {
       <h3>Các vấn đề khai thác</h3>
       <ol>
         <li>
+          Lô EK multi có 142 pcs, TL mark: có a kiện DGR, có a kiện frz, có a
+          kiện 2 - 8, có a kiện 15 - 30 để nhiệt độ thường, dry ice trên hàng có
+          label dgr 9 thì không tính dgr
+        </li>
+        <li>
+          Lô EK multi có a pcs, TL mark: có b pcs dgr, dry ice..., keep 2 - 8,
+          để ý nhiệt độ trên hàng, vì dry ice có nhãn nhiệt độ frozen
+        </li>
+        <li>
           Lô hàng trên hệ thống 7pcs, thực tế có 6pcs, nhưng nhận 7pcs, các uld
           còn lại xem có lô đó không, uld nhận 110%, uld khác nhận 90%, các uld
           bù trừ cho nhau
